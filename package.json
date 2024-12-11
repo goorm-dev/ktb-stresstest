@@ -8,8 +8,9 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "@playwright/test": "^1.49.0",
-    "@types/node": "^22.9.1"
+    "@playwright/test": "^1.49.1",
+    "@types/node": "^22.9.1",
+    "artillery-engine-playwright": "^1.18.0"
   },
   "dependencies": {
     "crypto": "^1.0.1",

@@ -1,9 +1,19 @@
 config:
-  target: https://ktb-chat-test.goorm.team
+  target: http://3.35.19.209:3000/
 
   phases:
-  - duration: 1
-    arrivalRate: 1
+    - name: "Warm up"
+      duration: 10
+      arrivalRate: 1
+      rampTo: 5
+    - name: "Peak load"
+      duration: 20
+      arrivalRate: 5
+      rampTo: 10
+    - name: "Scale down"
+      duration: 10
+      arrivalRate: 10
+      rampTo: 1
 
   engines:
     playwright:
@@ -14,4 +24,4 @@ config:
 
 scenarios:
   - engine: playwright
-    flowFunction: "createNewChat" 
+    testFunction: "createNewChat"
