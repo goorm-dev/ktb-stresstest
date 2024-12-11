@@ -8,15 +8,19 @@ const crypto = require('crypto');
 const passwd = "123123";
 const domain = "@test.com";
 const chatName = "asdfasdf";
-const site = "https://ktb-chat-test.goorm.team";
+const site = "http://13.124.37.26:3000/";
 const filename = './photo/test.jpeg';
 const aiMention = "@wayneAI";
 const findText = "hello";
 const msg = "hello";
 const group = "group_b";
+const TEST_ACCOUNT = {
+  email: 'test@test.com',
+  password: 'test1234'
+};
 
-async function registerUser(page) {
-  const id = `${group}_${Date.now()}`
+async function registerUser(page, chatname) {
+  const id = chatname
   const email = id + domain;
 
   try {
@@ -29,45 +33,69 @@ async function registerUser(page) {
   await addUser(page, id, passwd, email);
 };
 
+// 로그인 함수
+async function loginTestUser(page) {
+  try {
+    await page.goto(site);
+    await login(page, TEST_ACCOUNT.email, TEST_ACCOUNT.password);
+  } catch (e) {
+    console.error('Error during login:', e);
+    throw e;
+  }
+}
+
 async function loginUser(page) {
-  await registerUser(page);
+  //await loginTestUser(page);
+  await loginTestUser(page);
 };
 
 async function createNewChat(page) {
-  await registerUser(page);
+  //await loginTestUser(page);
+  await loginTestUser(page);
   await createChat(page, `${group}_${Date.now()}`);
 };
 
 async function scrollChat(page) {
-  await registerUser(page);
+  //await loginTestUser(page);
+  await loginTestUser(page);
   await scrollDown(page);
 };
 
 async function sendMessageToChat(page) {
-  await registerUser(page);
+  //await loginTestUser(page);
+  await loginTestUser(page);
+
+  //const chatName = `sendMessageToChat_${Date.now()}`; // 동일한 chatName 사용
+  // await registerUser(page);
+  //await createChat(page, chatName);
   await accessChat(page, chatName);
   await talkChat(page, msg);
-};
+}
 
 async function reactionToMessage(page) {
-  await registerUser(page);
+  //await loginTestUser(page);
+  await loginTestUser(page);
   await accessChat(page, chatName);
   await addReactions(page, findText);
 };
 
 async function uploadFileToChat(page) {
-  await registerUser(page);
+  //await loginTestUser(page);
+  await loginTestUser(page);
   await accessChat(page, chatName);
   await uploadFile(page, filename);
 };
 
 async function updateProfileImage(page) {
-  await registerUser(page);
-  await addProfileImage(page, filename);
+  //await loginTestUser(page);
+  await loginTestUser(page);
+  //await accessChat(page, chatName);
+  await addProfileImage(page, filename, site);
 };
 
 async function generateChatAiResponse(page) {
-  await registerUser(page);
+  //await loginTestUser(page);
+  await loginTestUser(page);
   await accessChat(page, chatName);
   await generateAiResponse(page, aiMention);
 };

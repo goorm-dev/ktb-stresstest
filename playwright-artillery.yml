@@ -1,9 +1,12 @@
 config:
-  target: https://ktb-chat-test.goorm.team
+  target: http://13.124.37.26:3000/
 
   phases:
-  - duration: 1
+  - name: "Single user test"
+    duration: 1
     arrivalRate: 1
+    rampTo: 1
+
 
   engines:
     playwright:
@@ -13,5 +16,7 @@ config:
   processor: "./stresstest/app.js"
 
 scenarios:
+  # - engine: playwright
+  #   testFunction: "createNewChat"
   - engine: playwright
-    flowFunction: "createNewChat" 
+    testFunction: "generateChatAiResponse"

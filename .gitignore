@@ -1,6 +1,8 @@
 node_modules/
 /test-results/
 /playwright-report/
+/artillery-report/
 /blob-report/
 /playwright/.cache/
 tests/*
+*.log
