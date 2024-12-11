@@ -45,7 +45,8 @@ async function loginTestUser(page) {
 }
 
 async function loginUser(page) {
-  await registerUser(page);
+  await loginTestUser(page);
+  //await registerUser(page);
 };
 
 async function createNewChat(page) {
@@ -55,35 +56,41 @@ async function createNewChat(page) {
 };
 
 async function scrollChat(page) {
-  await registerUser(page);
+  await loginTestUser(page);
+  //await registerUser(page);
   await scrollDown(page);
 };
 
 async function sendMessageToChat(page) {
-  await registerUser(page);
+  await loginTestUser(page);
+  //await registerUser(page);
   await accessChat(page, chatName);
   await talkChat(page, msg);
 };
 
 async function reactionToMessage(page) {
-  await registerUser(page);
+  await loginTestUser(page);
+  //await registerUser(page);
   await accessChat(page, chatName);
   await addReactions(page, findText);
 };
 
 async function uploadFileToChat(page) {
-  await registerUser(page);
+  await loginTestUser(page);
+  //await registerUser(page);
   await accessChat(page, chatName);
   await uploadFile(page, filename);
 };
 
 async function updateProfileImage(page) {
-  await registerUser(page);
+  await loginTestUser(page);
+  //await registerUser(page);
   await addProfileImage(page, filename);
 };
 
 async function generateChatAiResponse(page) {
-  await registerUser(page);
+  await loginTestUser(page);
+  //await registerUser(page);
   await accessChat(page, chatName);
   await generateAiResponse(page, aiMention);
 };
