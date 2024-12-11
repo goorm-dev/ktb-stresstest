@@ -1,19 +1,12 @@
 config:
-  target: http://3.35.19.209:3000/
+  target: http://13.124.37.26:3000/
 
   phases:
-    - name: "Warm up"
-      duration: 10
-      arrivalRate: 1
-      rampTo: 5
-    - name: "Peak load"
-      duration: 20
-      arrivalRate: 5
-      rampTo: 10
-    - name: "Scale down"
-      duration: 10
-      arrivalRate: 10
-      rampTo: 1
+  - name: "Single user test"
+    duration: 1
+    arrivalRate: 1
+    rampTo: 1
+
 
   engines:
     playwright:
@@ -23,5 +16,7 @@ config:
   processor: "./stresstest/app.js"
 
 scenarios:
+  # - engine: playwright
+  #   testFunction: "createNewChat"
   - engine: playwright
-    testFunction: "createNewChat"
+    testFunction: "generateChatAiResponse"
