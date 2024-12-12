@@ -1,0 +1,930 @@
+Test run id: t6xbb_ng3tez54te8kjr438ggnf7dj7f5tz_mna5
+Phase started: Single user test (index: 0, duration: 30s) 11:02:33(+0900)
+
+sendMessageToChat_1733968955004@test.com Registry Success
+sendMessageToChat_1733968956664@test.com Registry Success
+sendMessageToChat_1733968955648@test.com Registry Success
+sendMessageToChat_1733968956847@test.com Registry Success
+sendMessageToChat_1733968957658@test.com Registry Success
+sendMessageToChat_1733968957699@test.com Registry Success
+sendMessageToChat_1733968958658@test.com Registry Success
+sendMessageToChat_1733968958799@test.com Registry Success
+sendMessageToChat_1733968959657@test.com Registry Success
+sendMessageToChat_1733968959697@test.com Registry Success
+sendMessageToChat_1733968959916@test.com Registry Success
+Chat accessed
+true
+true
+sendMessageToChat_1733968960706@test.com Registry Success
+sendMessageToChat_1733968960661@test.com Registry Success
+sendMessageToChat_1733968960759@test.com Registry Success
+sendMessageToChat_1733968961655@test.com Registry Success
+Chat talk completed
+sendMessageToChat_1733968961757@test.com Registry Success
+sendMessageToChat_1733968961703@test.com Registry Success
+Chat accessed
+true
+true
+Chat accessed
+true
+true
+sendMessageToChat_1733968962651@test.com Registry Success
+Chat accessed
+true
+true
+sendMessageToChat_1733968962701@test.com Registry Success
+Chat talk completed
+Chat talk completed
+Chat accessed
+Chat accessed
+true
+true
+Chat talk completed
+true
+true
+sendMessageToChat_1733968962760@test.com Registry Success
+sendMessageToChat_1733968963702@test.com Registry Success
+Chat talk completed
+sendMessageToChat_1733968963652@test.com Registry Success
+Chat accessed
+Chat accessed
+Chat accessed
+Chat talk completed
+Chat accessed
+sendMessageToChat_1733968963994@test.com Registry Success
+sendMessageToChat_1733968963758@test.com Registry Success
+sendMessageToChat_1733968964729@test.com Registry Success
+true
+true
+true
+true
+true
+true
+true
+true
+sendMessageToChat_1733968964749@test.com Registry Success
+sendMessageToChat_1733968964862@test.com Registry Success
+sendMessageToChat_1733968964829@test.com Registry Success
+Chat accessed
+Chat talk completed
+Chat talk completed
+Chat talk completed
+sendMessageToChat_1733968965686@test.com Registry Success
+Chat talk completed
+sendMessageToChat_1733968965868@test.com Registry Success
+sendMessageToChat_1733968965797@test.com Registry Success
+Chat accessed
+Chat accessed
+Chat accessed
+sendMessageToChat_1733968966665@test.com Registry Success
+sendMessageToChat_1733968966828@test.com Registry Success
+sendMessageToChat_1733968965813@test.com Registry Success
+sendMessageToChat_1733968966832@test.com Registry Success
+Chat accessed
+Chat accessed
+Chat accessed
+sendMessageToChat_1733968966809@test.com Registry Success
+sendMessageToChat_1733968967072@test.com Registry Success
+Chat accessed
+sendMessageToChat_1733968967709@test.com Registry Success
+sendMessageToChat_1733968967731@test.com Registry Success
+Chat accessed
+sendMessageToChat_1733968967866@test.com Registry Success
+Chat accessed
+sendMessageToChat_1733968967835@test.com Registry Success
+Chat accessed
+sendMessageToChat_1733968968705@test.com Registry Success
+sendMessageToChat_1733968967818@test.com Registry Success
+Chat accessed
+true
+sendMessageToChat_1733968968877@test.com Registry Success
+true
+sendMessageToChat_1733968968819@test.com Registry Success
+sendMessageToChat_1733968968666@test.com Registry Success
+sendMessageToChat_1733968968840@test.com Registry Success
+sendMessageToChat_1733968969718@test.com Registry Success
+Chat accessed
+Chat accessed
+Chat accessed
+Chat accessed
+Chat accessed
+Chat accessed
+Chat accessed
+Chat accessed
+Chat accessed
+Chat accessed
+sendMessageToChat_1733968969939@test.com Registry Success
+sendMessageToChat_1733968970352@test.com Registry Success
+sendMessageToChat_1733968969830@test.com Registry Success
+sendMessageToChat_1733968969881@test.com Registry Success
+sendMessageToChat_1733968970969@test.com Registry Success
+true
+sendMessageToChat_1733968970998@test.com Registry Success
+sendMessageToChat_1733968969671@test.com Registry Success
+false
+Chat accessed
+Chat accessed
+Chat accessed
+sendMessageToChat_1733968970870@test.com Registry Success
+--------------------------------------
+Metrics for period to: 11:02:40(+0900) (width: 5.332s)
+--------------------------------------
+
+browser.http_requests: ......................................................... 289
+browser.page.FCP.http://13.124.37.26:3000/:
+  min: ......................................................................... 355.9
+  max: ......................................................................... 550.5
+  mean: ........................................................................ 453.5
+  median: ...................................................................... 441.5
+  p95: ......................................................................... 518.1
+  p99: ......................................................................... 518.1
+browser.page.FID.http://13.124.37.26:3000/:
+  min: ......................................................................... 0.8
+  max: ......................................................................... 1.6
+  mean: ........................................................................ 1.1
+  median: ...................................................................... 0.9
+  p95: ......................................................................... 1.2
+  p99: ......................................................................... 1.2
+browser.page.FID.http://13.124.37.26:3000/register:
+  min: ......................................................................... 0.8
+  max: ......................................................................... 6.6
+  mean: ........................................................................ 2.7
+  median: ...................................................................... 0.8
+  p95: ......................................................................... 0.8
+  p99: ......................................................................... 0.8
+browser.page.LCP.http://13.124.37.26:3000/:
+  min: ......................................................................... 366.6
+  max: ......................................................................... 559.5
+  mean: ........................................................................ 463.8
+  median: ...................................................................... 459.5
+  p95: ......................................................................... 528.6
+  p99: ......................................................................... 528.6
+browser.page.TTFB.http://13.124.37.26:3000/:
+  min: ......................................................................... 18.4
+  max: ......................................................................... 62.5
+  mean: ........................................................................ 30.1
+  median: ...................................................................... 22.9
+  p95: ......................................................................... 40.9
+  p99: ......................................................................... 40.9
+browser.page.codes.200: ........................................................ 281
+browser.page.codes.201: ........................................................ 8
+vusers.created: ................................................................ 11
+vusers.created_by_name.0: ...................................................... 11
+
+
+sendMessageToChat_1733968970729@test.com Registry Success
+Phase completed: Single user test (index: 0, duration: 30s) 11:03:04(+0900)
+
+Chat accessed
+Chat accessed
+sendMessageToChat_1733968970822@test.com Registry Success
+sendMessageToChat_1733968970711@test.com Registry Success
+Chat accessed
+Chat accessed
+sendMessageToChat_1733968971711@test.com Registry Success
+sendMessageToChat_1733968971955@test.com Registry Success
+sendMessageToChat_1733968971743@test.com Registry Success
+sendMessageToChat_1733968972037@test.com Registry Success
+sendMessageToChat_1733968973516@test.com Registry Success
+sendMessageToChat_1733968974334@test.com Registry Success
+sendMessageToChat_1733968978253@test.com Registry Success
+sendMessageToChat_1733968971988@test.com Registry Success
+sendMessageToChat_1733968979371@test.com Registry Success
+true
+sendMessageToChat_1733968974337@test.com Registry Success
+sendMessageToChat_1733968975065@test.com Registry Success
+true
+sendMessageToChat_1733968982038@test.com Registry Success
+true
+sendMessageToChat_1733968972799@test.com Registry Success
+true
+Chat accessed
+sendMessageToChat_1733968975137@test.com Registry Success
+Chat accessed
+sendMessageToChat_1733968973105@test.com Registry Success
+sendMessageToChat_1733968974200@test.com Registry Success
+sendMessageToChat_1733968973082@test.com Registry Success
+--------------------------------------
+Metrics for period to: 11:02:50(+0900) (width: 9.919s)
+--------------------------------------
+
+browser.http_requests: ......................................................... 1268
+browser.page.FCP.http://13.124.37.26:3000/:
+  min: ......................................................................... 350.8
+  max: ......................................................................... 558
+  mean: ........................................................................ 439
+  median: ...................................................................... 441.5
+  p95: ......................................................................... 539.2
+  p99: ......................................................................... 539.2
+browser.page.FID.http://13.124.37.26:3000/:
+  min: ......................................................................... 0.7
+  max: ......................................................................... 1.3
+  mean: ........................................................................ 0.9
+  median: ...................................................................... 0.8
+  p95: ......................................................................... 1.2
+  p99: ......................................................................... 1.2
+browser.page.FID.http://13.124.37.26:3000/register:
+  min: ......................................................................... 0.6
+  max: ......................................................................... 1.4
+  mean: ........................................................................ 0.8
+  median: ...................................................................... 0.8
+  p95: ......................................................................... 1
+  p99: ......................................................................... 1
+browser.page.LCP.http://13.124.37.26:3000/:
+  min: ......................................................................... 371.4
+  max: ......................................................................... 570
+  mean: ........................................................................ 453.7
+  median: ...................................................................... 450.4
+  p95: ......................................................................... 539.2
+  p99: ......................................................................... 550.1
+browser.page.TTFB.http://13.124.37.26:3000/:
+  min: ......................................................................... 18.7
+  max: ......................................................................... 122.9
+  mean: ........................................................................ 53.4
+  median: ...................................................................... 47
+  p95: ......................................................................... 113.3
+  p99: ......................................................................... 113.3
+browser.page.codes.200: ........................................................ 1240
+browser.page.codes.201: ........................................................ 28
+vusers.completed: .............................................................. 6
+vusers.created: ................................................................ 42
+vusers.created_by_name.0: ...................................................... 42
+vusers.failed: ................................................................. 0
+vusers.session_length:
+  min: ......................................................................... 9217
+  max: ......................................................................... 10286.7
+  mean: ........................................................................ 9792.5
+  median: ...................................................................... 9801.2
+  p95: ......................................................................... 10201.2
+  p99: ......................................................................... 10201.2
+
+
+sendMessageToChat_1733968974755@test.com Registry Success
+Chat accessed
+sendMessageToChat_1733968972913@test.com Registry Success
+sendMessageToChat_1733968974033@test.com Registry Success
+sendMessageToChat_1733968975119@test.com Registry Success
+sendMessageToChat_1733968974867@test.com Registry Success
+sendMessageToChat_1733968982809@test.com Registry Success
+sendMessageToChat_1733968973748@test.com Registry Success
+sendMessageToChat_1733968983815@test.com Registry Success
+sendMessageToChat_1733968976504@test.com Registry Success
+sendMessageToChat_1733968985333@test.com Registry Success
+sendMessageToChat_1733968976147@test.com Registry Success
+sendMessageToChat_1733968986730@test.com Registry Success
+sendMessageToChat_1733968977935@test.com Registry Success
+sendMessageToChat_1733968972800@test.com Registry Success
+sendMessageToChat_1733968975118@test.com Registry Success
+sendMessageToChat_1733968979569@test.com Registry Success
+--------------------------------------
+Metrics for period to: 11:03:00(+0900) (width: 9.98s)
+--------------------------------------
+
+browser.http_requests: ......................................................... 1683
+browser.page.FCP.http://13.124.37.26:3000/:
+  min: ......................................................................... 386.4
+  max: ......................................................................... 1090.8
+  mean: ........................................................................ 604.5
+  median: ...................................................................... 596
+  p95: ......................................................................... 772.9
+  p99: ......................................................................... 820.7
+browser.page.FID.http://13.124.37.26:3000/:
+  min: ......................................................................... 0.1
+  max: ......................................................................... 4.2
+  mean: ........................................................................ 1.2
+  median: ...................................................................... 1
+  p95: ......................................................................... 2.4
+  p99: ......................................................................... 2.7
+browser.page.FID.http://13.124.37.26:3000/register:
+  min: ......................................................................... 0.8
+  max: ......................................................................... 3.5
+  mean: ........................................................................ 1.5
+  median: ...................................................................... 0.9
+  p95: ......................................................................... 1.2
+  p99: ......................................................................... 1.2
+browser.page.LCP.http://13.124.37.26:3000/:
+  min: ......................................................................... 394.6
+  max: ......................................................................... 1127.7
+  mean: ........................................................................ 616.7
+  median: ...................................................................... 608
+  p95: ......................................................................... 757.6
+  p99: ......................................................................... 871.5
+browser.page.TTFB.http://13.124.37.26:3000/:
+  min: ......................................................................... 19.4
+  max: ......................................................................... 353.7
+  mean: ........................................................................ 73.2
+  median: ...................................................................... 68.7
+  p95: ......................................................................... 125.2
+  p99: ......................................................................... 214.9
+browser.page.codes.200: ........................................................ 1654
+browser.page.codes.201: ........................................................ 29
+browser.page.codes.429: ........................................................ 2
+vusers.completed: .............................................................. 4
+vusers.created: ................................................................ 68
+vusers.created_by_name.0: ...................................................... 68
+vusers.failed: ................................................................. 0
+vusers.session_length:
+  min: ......................................................................... 10453.7
+  max: ......................................................................... 11849.6
+  mean: ........................................................................ 11145.2
+  median: ...................................................................... 10407.3
+  p95: ......................................................................... 11734.2
+  p99: ......................................................................... 11734.2
+
+
+Chat accessed
+sendMessageToChat_1733968978365@test.com Registry Success
+sendMessageToChat_1733968979594@test.com Registry Success
+Chat accessed
+sendMessageToChat_1733968979386@test.com Registry Success
+--------------------------------------
+Metrics for period to: 11:03:10(+0900) (width: 9.91s)
+--------------------------------------
+
+browser.http_requests: ......................................................... 1366
+browser.page.FCP.http://13.124.37.26:3000/:
+  min: ......................................................................... 463.2
+  max: ......................................................................... 1564.7
+  mean: ........................................................................ 734.9
+  median: ...................................................................... 671.9
+  p95: ......................................................................... 1043.3
+  p99: ......................................................................... 1436.8
+browser.page.FID.http://13.124.37.26:3000/:
+  min: ......................................................................... 0
+  max: ......................................................................... 13.5
+  mean: ........................................................................ 4.3
+  median: ...................................................................... 2.8
+  p95: ......................................................................... 10.3
+  p99: ......................................................................... 10.3
+browser.page.FID.http://13.124.37.26:3000/register:
+  min: ......................................................................... 1.9
+  max: ......................................................................... 32.4
+  mean: ........................................................................ 11.5
+  median: ...................................................................... 5.8
+  p95: ......................................................................... 6
+  p99: ......................................................................... 6
+browser.page.LCP.http://13.124.37.26:3000/:
+  min: ......................................................................... 584.1
+  max: ......................................................................... 6106.7
+  mean: ........................................................................ 2619
+  median: ...................................................................... 1153.1
+  p95: ......................................................................... 5826.9
+  p99: ......................................................................... 5826.9
+browser.page.TTFB.http://13.124.37.26:3000/:
+  min: ......................................................................... 20.4
+  max: ......................................................................... 186.6
+  mean: ........................................................................ 76
+  median: ...................................................................... 62.2
+  p95: ......................................................................... 153
+  p99: ......................................................................... 183.1
+browser.page.codes.200: ........................................................ 1267
+browser.page.codes.201: ........................................................ 23
+browser.page.codes.429: ........................................................ 78
+vusers.created: ................................................................ 44
+vusers.created_by_name.0: ...................................................... 44
+
+
+sendMessageToChat_1733968981730@test.com Registry Success
+true
+true
+sendMessageToChat_1733968982918@test.com Registry Success
+--------------------------------------
+Metrics for period to: 11:03:20(+0900) (width: 9.969s)
+--------------------------------------
+
+browser.http_requests: ......................................................... 801
+browser.page.FCP.http://13.124.37.26:3000/:
+  min: ......................................................................... 452.8
+  max: ......................................................................... 589.1
+  mean: ........................................................................ 517.9
+  median: ...................................................................... 497.8
+  p95: ......................................................................... 584.2
+  p99: ......................................................................... 584.2
+browser.page.FID.http://13.124.37.26:3000/:
+  min: ......................................................................... 0.2
+  max: ......................................................................... 60.9
+  mean: ........................................................................ 18.6
+  median: ...................................................................... 13.6
+  p95: ......................................................................... 47
+  p99: ......................................................................... 57.4
+browser.page.FID.http://13.124.37.26:3000/register:
+  min: ......................................................................... 7.2
+  max: ......................................................................... 90.2
+  mean: ........................................................................ 34.7
+  median: ...................................................................... 31.5
+  p95: ......................................................................... 62.2
+  p99: ......................................................................... 62.2
+browser.page.LCP.http://13.124.37.26:3000/:
+  min: ......................................................................... 541
+  max: ......................................................................... 5310.5
+  mean: ........................................................................ 1435.8
+  median: ...................................................................... 742.6
+  p95: ......................................................................... 4492.8
+  p99: ......................................................................... 4770.6
+browser.page.TTFB.http://13.124.37.26:3000/:
+  min: ......................................................................... 23.3
+  max: ......................................................................... 98.2
+  mean: ........................................................................ 44.4
+  median: ...................................................................... 35.5
+  p95: ......................................................................... 68.7
+  p99: ......................................................................... 68.7
+browser.page.codes.200: ........................................................ 601
+browser.page.codes.201: ........................................................ 8
+browser.page.codes.429: ........................................................ 188
+
+
+sendMessageToChat_1733968978254@test.com Registry Success
+true
+sendMessageToChat_1733968985681@test.com Registry Success
+true
+sendMessageToChat_1733968986401@test.com Registry Success
+sendMessageToChat_1733968981699@test.com Registry Success
+sendMessageToChat_1733968990838@test.com Registry Success
+sendMessageToChat_1733968986403@test.com Registry Success
+sendMessageToChat_1733968978917@test.com Registry Success
+sendMessageToChat_1733968988439@test.com Registry Success
+sendMessageToChat_1733968982760@test.com Registry Success
+sendMessageToChat_1733968988521@test.com Registry Success
+sendMessageToChat_1733968982204@test.com Registry Success
+sendMessageToChat_1733968980985@test.com Registry Success
+sendMessageToChat_1733968976321@test.com Registry Success
+Chat talk completed
+sendMessageToChat_1733968984047@test.com Registry Success
+sendMessageToChat_1733968975766@test.com Registry Success
+Chat talk completed
+sendMessageToChat_1733968987168@test.com Registry Success
+sendMessageToChat_1733968975890@test.com Registry Success
+sendMessageToChat_1733968987553@test.com Registry Success
+--------------------------------------
+Metrics for period to: 11:03:30(+0900) (width: 9.971s)
+--------------------------------------
+
+browser.http_requests: ......................................................... 405
+browser.page.FID.http://13.124.37.26:3000/:
+  min: ......................................................................... 2.4
+  max: ......................................................................... 22.5
+  mean: ........................................................................ 13
+  median: ...................................................................... 10.9
+  p95: ......................................................................... 20.3
+  p99: ......................................................................... 20.3
+browser.page.FID.http://13.124.37.26:3000/register:
+  min: ......................................................................... 8.7
+  max: ......................................................................... 16.6
+  mean: ........................................................................ 11.8
+  median: ...................................................................... 10.3
+  p95: ......................................................................... 10.3
+  p99: ......................................................................... 10.3
+browser.page.LCP.http://13.124.37.26:3000/:
+  min: ......................................................................... 663.5
+  max: ......................................................................... 4636.3
+  mean: ........................................................................ 1741.9
+  median: ...................................................................... 788.5
+  p95: ......................................................................... 4147.4
+  p99: ......................................................................... 4147.4
+browser.page.codes.200: ........................................................ 170
+browser.page.codes.201: ........................................................ 19
+browser.page.codes.429: ........................................................ 216
+errors.locator.click: Timeout 30000ms exceeded.: ............................... 5
+vusers.failed: ................................................................. 5
+
+
+sendMessageToChat_1733968989767@test.com Registry Success
+sendMessageToChat_1733968978148@test.com Registry Success
+sendMessageToChat_1733968976328@test.com Registry Success
+sendMessageToChat_1733968980911@test.com Registry Success
+sendMessageToChat_1733968977878@test.com Registry Success
+sendMessageToChat_1733968976130@test.com Registry Success
+sendMessageToChat_1733968980346@test.com Registry Success
+sendMessageToChat_1733968979604@test.com Registry Success
+sendMessageToChat_1733968985053@test.com Registry Success
+sendMessageToChat_1733968984147@test.com Registry Success
+sendMessageToChat_1733968982928@test.com Registry Success
+sendMessageToChat_1733968984148@test.com Registry Success
+sendMessageToChat_1733968983031@test.com Registry Success
+sendMessageToChat_1733968991364@test.com Registry Success
+sendMessageToChat_1733968982905@test.com Registry Success
+sendMessageToChat_1733968989534@test.com Registry Success
+sendMessageToChat_1733968979351@test.com Registry Success
+sendMessageToChat_1733968980662@test.com Registry Success
+sendMessageToChat_1733968979054@test.com Registry Success
+Chat talk completed
+sendMessageToChat_1733968979780@test.com Registry Success
+Chat talk completed
+Chat accessed
+Chat accessed
+sendMessageToChat_1733968990364@test.com Registry Success
+sendMessageToChat_1733968988889@test.com Registry Success
+--------------------------------------
+Metrics for period to: 11:03:40(+0900) (width: 9.934s)
+--------------------------------------
+
+browser.http_requests: ......................................................... 459
+browser.page.codes.200: ........................................................ 252
+browser.page.codes.201: ........................................................ 19
+browser.page.codes.409: ........................................................ 1
+browser.page.codes.429: ........................................................ 188
+errors.locator.click: Timeout 30000ms exceeded.: ............................... 21
+errors.locator.fill: Timeout 30000ms exceeded.: ................................ 2
+vusers.completed: .............................................................. 2
+vusers.failed: ................................................................. 23
+vusers.session_length:
+  min: ......................................................................... 46655.5
+  max: ......................................................................... 48655.8
+  mean: ........................................................................ 47655.6
+  median: ...................................................................... 46644.4
+  p95: ......................................................................... 46644.4
+  p99: ......................................................................... 46644.4
+
+
+Chat accessed
+Chat accessed
+Chat accessed
+sendMessageToChat_1733968984172@test.com Registry Success
+sendMessageToChat_1733968982935@test.com Registry Success
+sendMessageToChat_1733968980479@test.com Registry Success
+sendMessageToChat_1733968983779@test.com Registry Success
+sendMessageToChat_1733968977532@test.com Registry Success
+Chat accessed
+Chat accessed
+Chat accessed
+Chat accessed
+Chat accessed
+Chat accessed
+Chat accessed
+Chat accessed
+Chat accessed
+Chat accessed
+Chat accessed
+Chat accessed
+Chat accessed
+Chat accessed
+Chat accessed
+Chat accessed
+Chat accessed
+sendMessageToChat_1733968986387@test.com Registry Success
+sendMessageToChat_1733968989597@test.com Registry Success
+sendMessageToChat_1733968986388@test.com Registry Success
+sendMessageToChat_1733968990604@test.com Registry Success
+sendMessageToChat_1733968989869@test.com Registry Success
+sendMessageToChat_1733968991087@test.com Registry Success
+Chat accessed
+Chat accessed
+Chat accessed
+Chat accessed
+Chat accessed
+Chat accessed
+Chat accessed
+Chat accessed
+Chat accessed
+Chat accessed
+Chat accessed
+Chat accessed
+Chat accessed
+Chat accessed
+Chat accessed
+Chat accessed
+Chat accessed
+Chat accessed
+Chat accessed
+--------------------------------------
+Metrics for period to: 11:03:50(+0900) (width: 9.994s)
+--------------------------------------
+
+browser.http_requests: ......................................................... 680
+browser.page.codes.200: ........................................................ 589
+browser.page.codes.201: ........................................................ 29
+browser.page.codes.409: ........................................................ 1
+browser.page.codes.429: ........................................................ 61
+errors.locator.click: Timeout 30000ms exceeded.: ............................... 8
+vusers.completed: .............................................................. 2
+vusers.failed: ................................................................. 8
+vusers.session_length:
+  min: ......................................................................... 54341.2
+  max: ......................................................................... 55757.5
+  mean: ........................................................................ 55049.4
+  median: ...................................................................... 54738
+  p95: ......................................................................... 54738
+  p99: ......................................................................... 54738
+
+
+true
+true
+sendMessageToChat_1733968992902@test.com Registry Success
+sendMessageToChat_1733968992844@test.com Registry Success
+sendMessageToChat_1733968989070@test.com Registry Success
+sendMessageToChat_1733968980788@test.com Registry Success
+sendMessageToChat_1733968982360@test.com Registry Success
+sendMessageToChat_1733968981296@test.com Registry Success
+sendMessageToChat_1733968992882@test.com Registry Success
+sendMessageToChat_1733968991106@test.com Registry Success
+sendMessageToChat_1733968986977@test.com Registry Success
+true
+true
+true
+true
+true
+true
+sendMessageToChat_1733968989671@test.com Registry Success
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+--------------------------------------
+Metrics for period to: 11:04:00(+0900) (width: 9.003s)
+--------------------------------------
+
+browser.http_requests: ......................................................... 372
+browser.page.codes.200: ........................................................ 269
+browser.page.codes.429: ........................................................ 103
+errors.locator.click: Timeout 30000ms exceeded.: ............................... 2
+vusers.failed: ................................................................. 2
+
+
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+Chat talk completed
+true
+true
+true
+Chat talk completed
+Chat talk completed
+Chat talk completed
+true
+true
+true
+true
+true
+true
+true
+Chat talk completed
+Chat talk completed
+Chat talk completed
+Chat talk completed
+Chat talk completed
+Chat talk completed
+Chat talk completed
+Chat talk completed
+Chat talk completed
+Chat talk completed
+Chat talk completed
+Chat talk completed
+Chat talk completed
+Chat talk completed
+Chat talk completed
+Chat talk completed
+Chat talk completed
+Chat talk completed
+Chat talk completed
+Chat talk completed
+Chat talk completed
+Chat talk completed
+Chat talk completed
+Chat talk completed
+Chat talk completed
+Chat talk completed
+Chat talk completed
+Chat talk completed
+Chat talk completed
+Chat talk completed
+Chat talk completed
+Chat talk completed
+Chat talk completed
+Chat talk completed
+Chat talk completed
+Chat talk completed
+Chat talk completed
+Chat talk completed
+Chat talk completed
+Chat talk completed
+Chat talk completed
+Chat talk completed
+Chat talk completed
+Chat talk completed
+Chat talk completed
+Chat talk completed
+Chat talk completed
+Chat talk completed
+Chat talk completed
+Chat talk completed
+Chat talk completed
+Chat talk completed
+Chat talk completed
+Chat talk completed
+Chat talk completed
+Chat talk completed
+Chat talk completed
+Chat talk completed
+--------------------------------------
+Metrics for period to: 11:04:10(+0900) (width: 8.956s)
+--------------------------------------
+
+browser.http_requests: ......................................................... 165
+browser.page.codes.200: ........................................................ 43
+browser.page.codes.429: ........................................................ 122
+errors.locator.click: Timeout 30000ms exceeded.: ............................... 3
+vusers.failed: ................................................................. 3
+
+
+Chat talk completed
+--------------------------------------
+Metrics for period to: 11:04:20(+0900) (width: 9.701s)
+--------------------------------------
+
+browser.http_requests: ......................................................... 157
+browser.page.codes.200: ........................................................ 40
+browser.page.codes.429: ........................................................ 117
+errors.locator.click: Timeout 30000ms exceeded.: ............................... 29
+vusers.completed: .............................................................. 8
+vusers.failed: ................................................................. 29
+vusers.session_length:
+  min: ......................................................................... 71859.1
+  max: ......................................................................... 85289.1
+  mean: ........................................................................ 82425.4
+  median: ...................................................................... 83310.3
+  p95: ......................................................................... 84993.4
+  p99: ......................................................................... 84993.4
+
+
+Chat talk completed
+Chat talk completed
+Chat talk completed
+Chat talk completed
+Chat talk completed
+--------------------------------------
+Metrics for period to: 11:04:30(+0900) (width: 9.428s)
+--------------------------------------
+
+browser.http_requests: ......................................................... 41
+browser.page.codes.200: ........................................................ 10
+browser.page.codes.429: ........................................................ 31
+errors.locator.click: Timeout 30000ms exceeded.: ............................... 10
+vusers.completed: .............................................................. 42
+vusers.failed: ................................................................. 10
+vusers.session_length:
+  min: ......................................................................... 78602
+  max: ......................................................................... 104877.5
+  mean: ........................................................................ 94829.5
+  median: ...................................................................... 93932.5
+  p95: ......................................................................... 103811.8
+  p99: ......................................................................... 103811.8
+
+
+--------------------------------------
+Metrics for period to: 11:04:40(+0900) (width: 9.126s)
+--------------------------------------
+
+vusers.completed: .............................................................. 15
+vusers.failed: ................................................................. 0
+vusers.session_length:
+  min: ......................................................................... 85786.7
+  max: ......................................................................... 110759.2
+  mean: ........................................................................ 97845.4
+  median: ...................................................................... 95830.1
+  p95: ......................................................................... 110231.4
+  p99: ......................................................................... 110231.4
+
+
+--------------------------------------
+Metrics for period to: 11:04:50(+0900) (width: 2.505s)
+--------------------------------------
+
+vusers.completed: .............................................................. 3
+vusers.failed: ................................................................. 0
+vusers.session_length:
+  min: ......................................................................... 113967.5
+  max: ......................................................................... 115400.8
+  mean: ........................................................................ 114717.9
+  median: ...................................................................... 114730.2
+  p95: ......................................................................... 114730.2
+  p99: ......................................................................... 114730.2
+
+
+Chat talk completed
+Chat talk completed
+Chat talk completed
+--------------------------------------
+Metrics for period to: 11:05:20(+0900) (width: 1.834s)
+--------------------------------------
+
+vusers.completed: .............................................................. 3
+vusers.failed: ................................................................. 0
+vusers.session_length:
+  min: ......................................................................... 129543
+  max: ......................................................................... 140703.2
+  mean: ........................................................................ 136359
+  median: ...................................................................... 140132.7
+  p95: ......................................................................... 140132.7
+  p99: ......................................................................... 140132.7
+
+
+All VUs finished. Total time: 2 minutes, 43 seconds
+
+--------------------------------
+Summary report @ 11:05:18(+0900)
+--------------------------------
+
+browser.http_requests: ......................................................... 7686
+browser.page.FCP.http://13.124.37.26:3000/:
+  min: ......................................................................... 350.8
+  max: ......................................................................... 1564.7
+  mean: ........................................................................ 584.4
+  median: ...................................................................... 539.2
+  p95: ......................................................................... 889.1
+  p99: ......................................................................... 1085.9
+browser.page.FID.http://13.124.37.26:3000/:
+  min: ......................................................................... 0
+  max: ......................................................................... 60.9
+  mean: ........................................................................ 6.3
+  median: ...................................................................... 1.2
+  p95: ......................................................................... 24.8
+  p99: ......................................................................... 47
+browser.page.FID.http://13.124.37.26:3000/register:
+  min: ......................................................................... 0.6
+  max: ......................................................................... 90.2
+  mean: ........................................................................ 10.8
+  median: ...................................................................... 1.2
+  p95: ......................................................................... 56.3
+  p99: ......................................................................... 62.2
+browser.page.LCP.http://13.124.37.26:3000/:
+  min: ......................................................................... 366.6
+  max: ......................................................................... 6106.7
+  mean: ........................................................................ 1117
+  median: ...................................................................... 608
+  p95: ......................................................................... 4676.2
+  p99: ......................................................................... 5826.9
+browser.page.TTFB.http://13.124.37.26:3000/:
+  min: ......................................................................... 18.4
+  max: ......................................................................... 353.7
+  mean: ........................................................................ 63.9
+  median: ...................................................................... 49.9
+  p95: ......................................................................... 125.2
+  p99: ......................................................................... 186.8
+browser.page.codes.200: ........................................................ 6416
+browser.page.codes.201: ........................................................ 163
+browser.page.codes.409: ........................................................ 2
+browser.page.codes.429: ........................................................ 1106
+errors.locator.click: Timeout 30000ms exceeded.: ............................... 78
+errors.locator.fill: Timeout 30000ms exceeded.: ................................ 2
+vusers.completed: .............................................................. 85
+vusers.created: ................................................................ 165
+vusers.created_by_name.0: ...................................................... 165
+vusers.failed: ................................................................. 80
+vusers.session_length:
+  min: ......................................................................... 9217
+  max: ......................................................................... 140703.2
+  mean: ........................................................................ 84375.3
+  median: ...................................................................... 90249.2
+  p95: ......................................................................... 114730.2
+  p99: ......................................................................... 140132.7

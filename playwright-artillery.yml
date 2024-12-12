@@ -3,9 +3,9 @@ config:
 
   phases:
   - name: "Single user test"
-    duration: 1
+    duration: 30
     arrivalRate: 1
-    rampTo: 1
+    rampTo: 10
 
 
   engines:
@@ -16,7 +16,7 @@ config:
   processor: "./stresstest/app.js"
 
 scenarios:
-  # - engine: playwright
-  #   testFunction: "createNewChat"
   - engine: playwright
-    testFunction: "generateChatAiResponse"
+    testFunction: "sendMessageToChat"
+
+    

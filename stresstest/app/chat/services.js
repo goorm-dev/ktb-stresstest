@@ -1,11 +1,18 @@
 const path = require('path');
 
-const accessChat = async (page, chatName) => {
+const accessChat = async (page, chatName, secretPassword) => {
   const rows = await page.locator('tr');
   const targetRow = await rows.filter({ hasText: chatName });
 
   await targetRow.locator("button:has-text('입장')").first().click();
   await page.waitForTimeout(3000);
+  const passwordInput = page.getByPlaceholder('비밀번호를 입력하세요');
+  // console.log("passwordInput isVisible: ", await passwordInput.isVisible());
+  if (secretPassword && await passwordInput.isVisible()) {
+    await passwordInput.fill(secretPassword);
+    await page.locator("button:has-text('입장하기')").first().click();
+    await page.waitForTimeout(3000);
+  }
 
   console.info('Chat accessed');
 };
@@ -24,6 +31,25 @@ const createChat = async (page, chatName) => {
   console.info('Chat created');
 };
 
+const createSecretChat = async (page, chatName, secretPassword) => {
+  const newChatButton = page.getByRole('button', { name: '새 채팅방' });
+  await newChatButton.click();
+
+  const chatNameInput = page.getByPlaceholder('채팅방 이름을 입력하세요');
+  await chatNameInput.fill(chatName);
+
+  const hasPasswordCheckbox = page.getByRole('checkbox', { id: 'hasPassword' });
+  await hasPasswordCheckbox.click();
+
+  const passwordInput = page.getByPlaceholder('비밀번호를 입력하세요');
+  await passwordInput.fill(secretPassword);
+
+  const createChatButton = page.getByRole('button', { name: '채팅방 만들기' });
+  await createChatButton.click();
+
+  await page.waitForTimeout(3000);
+  console.info('Chat created');
+};
 
 const talkChat = async (page, text) => {
   await page.waitForLoadState('networkidle'); // 페이지가 완전히 로드될 때까지 기다림
@@ -143,4 +169,4 @@ const uploadFile = async (page, filename) => {
 };
 
 
-module.exports = { accessChat, createChat, talkChat, addReactions, scrollDown, uploadFile };
+module.exports = { accessChat, createChat, talkChat, addReactions, scrollDown, uploadFile, createSecretChat };
